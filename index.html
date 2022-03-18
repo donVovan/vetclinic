@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- * Общая коробка, здесь прижмем футер вниз экрана -->
+    <div class="wrapper">
+        <!-- * коробка с контентом -->
+        <div class="page">
+            <header class="header container">
+                <div class="header__body">
+                    <!-- * flex хедэра -->
+                    <div class="header__row">
+                        <!-- * flex элемент logo -->
+                        <div class="header__logo logo">
+                            <a href="#" class="logo__link">
+                                Vet<span>care</span>
+                            </a>
+                        </div>
+                        <!-- * flex элемент menu, на всякий случай вынесем в отдельный блок -->
+                        <nav class="header__menu menu">
+                            <!-- * flex container меню -->
+                            <ul class="menu__row">
+                                <li class="menu__item"><a href="#" class="menu__link">Start</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">News</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <!-- * flex элемент button, кнопку тоже сделаем отдельным блоком -->
+                        <div class="header__button button">
+                            <a class="button__text" href="tel:38412929339">384-129-293-39</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <!-- * коробка первого, главного блока -->
+                <section class="block">
+                    <!-- * ограничивающий контейнер первого блока -->
+                    <div class="block__container">
+                        <!-- * body первого блока -->
+                        <div class="block__body lifeandcary">
+                            <!-- * flex body (lifeandcary) делаем flex потому что внутри будет текст, который может меняться -->
+                            <div class="lifeandcary__row">
+                                <!-- * заголовок блока lifeandcary (flex Элемент) -->
+                                <h1 class="lifeandcary__title">For Your Pet’s Natural Life & Care</h1>
+                                <!-- * текст блока lifeandcary (flex Элемент)-->
+                                <div class="lifeandcary__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt</div>
+                                <!-- * группа кнопок блока  lifeandcary (flex Элемент)-->
+                                <div class="lifeandcary__buttons buttons">
+                                    <!-- * flex buttons flex container кнопок-->
+                                    <div class="buttons__row">
+                                        <!-- * flex Элемент группы кнопок -->
+                                        <a href="#" class="buttons__item button button__text">Our Services</a>
+                                        <!-- * flex Элемент группы кнопок с модификатором -->
+                                        <a href="#" class="buttons__item button button__text">Make Appointment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- * фоновая картинка, подключаем таким образом, так как ей легче управлять при адаптиве -->
+                        <div class="block__image ibg">
+                            <img src="img/block/big-dog1.png" alt="Собачка с игрушками">
+                        </div>
+                    </div>
+                </section>
+                <!-- * коробка второго блока -->
+                <section class="services">
+                    <!-- * ограничивающий контейнер второго блока -->
+                    <div class="services__container container">
+                        <!-- * body второго блока -->
+                        <div class="services__body">
+                            <!-- ? flex второго блока не понадобился, пока закомментирую на всякий случай -->
+                            <!-- <div class="services__row"> -->
+                            <!-- * flex элемент подзаголовок -->
+                            <h3 class="services__subtitle subtitle-block">
+                                Care For Your Pet
+                            </h3>
+                            <!-- * flex элемент заголовок -->
+                            <h2 class="services__title title-block">
+                                What We Do
+                            </h2>
+                            <!-- * внутренний блок с карточками -->
+                            <div class="services__cards cards-small cards">
+                                <!-- * flex карточек -->
+                                <div class="cards-small__row">
+                                    <!-- * flex элемент внутреннего блока с карточками -->
+                                    <div class="cards-small__item cards-sm-body">
+                                        <!-- * карточка -->
+                                        <div class="cards-sm-body">
+                                            <!-- * иконка -->
+                                            <div class="cards-sm-body__icon icon icon-groom"></div>
+                                            <!-- * заголовок -->
+                                            <h4 class="cards-sm-body__title">Pet Grooming</h4>
+                                            <!-- * текст -->
+                                            <div class="cards-sm-body__text">There are many variatio of passage of Lorem
+                                                for a Ipsum available</div>
+                                        </div>
+                                    </div>
+                                    <div class="cards-small__item cards-sm-body">
+                                        <!-- * карточка -->
+                                        <div class="cards-sm-body">
+                                            <!-- * иконка -->
+                                            <div class="cards-sm-body__icon icon icon-vet"></div>
+                                            <!-- * заголовок -->
+                                            <h4 class="cards-sm-body__title">Veterinary</h4>
+                                            <!-- * текст -->
+                                            <div class="cards-sm-body__text">There are many variatio of passage of Lorem
+                                                for a Ipsum available</div>
+                                        </div>
+                                    </div>
+                                    <div class="cards-small__item cards-sm-body">
+                                        <!-- * карточка -->
+                                        <div class="cards-sm-body">
+                                            <!-- * иконка -->
+                                            <div class="cards-sm-body__icon icon icon-sett"></div>
+                                            <!-- * заголовок -->
+                                            <h4 class="cards-sm-body__title">Dog Setting</h4>
+                                            <!-- * текст -->
+                                            <div class="cards-sm-body__text">There are many variatio of passage of Lorem
+                                                for a Ipsum available</div>
+                                        </div>
+                                    </div>
+                                    <div class="cards-small__item cards-sm-body">
+                                        <!-- * карточка -->
+                                        <div class="cards-sm-body">
+                                            <!-- * иконка -->
+                                            <div class="cards-sm-body__icon icon icon-health"></div>
+                                            <!-- * заголовок -->
+                                            <h4 class="cards-sm-body__title">Healthy Meals</h4>
+                                            <!-- * текст -->
+                                            <div class="cards-sm-body__text">There are many variatio of passage of Lorem
+                                                for a Ipsum available</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </section>
+                <!-- * коробка третьего блока -->
+                <section class="about">
+                    <!-- * ограничивающий контейнер третьего блока -->
+                    <div class="about__container">
+                        <!-- * body третьего блока -->
+                        <div class="about__body vet">
+                            <!-- * flex (vet) делаем flex потому что внутри будет текст, который может меняться -->
+                            <div class="vet__row">
+                                <!-- * подзаголовок блока vet (flex Элемент) -->
+                                <h3 class="vet__subtitle subtitle-block">Our about Story</h3>
+                                <!-- * заголовок блока vet (flex Элемент) -->
+                                <h2 class="vet__title title-block">Experience Vet Clinic
+                                    And Services</h2>
+                                <!-- * текст блока vet (flex Элемент) -->
+                                <div class="vet__text">Aliquam erat volutpat In id fermentum augue, ut pellentesque
+                                    Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hakso
+                                    hendrerit id. In aliquet magna nec lobortis maximus.</div>
+                                <!-- * список (flex элемент)  -->
+                                <div class="vet__list list">
+                                    <!-- * flex контейнер списка -->
+                                    <ul class="list__row">
+                                        <li class="list__item">Donec commodo scelerisque laoreet nibh hendrerit</li>
+                                        <li class="list__item">In aliquet magna nec lobortis maximus. Etiam a dolor
+                                            placerat</li>
+                                        <li class="list__item">Etiam dolor nec elementum ipsum convall Maecenas</li>
+                                    </ul>
+                                </div>
+                                <!-- * кнопка блока -->
+                                <div class="vet__button button">
+                                    <a href="#" class="button__text">Know More About Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__image ibg">
+                        <img src="img/about/dog.png" alt="Собачка">
+                    </div>
+                </section>
+                <!-- * коробка четвертого блока -->
+                <section class="team">
+                    <!-- * ограничивающий контейнер четвертогго блока -->
+                    <div class="team__container container">
+                        <!-- * body четвертого блока -->
+                        <div class="team__body">
+                            <!-- * подзаголовок -->
+                            <h3 class="team__subtitle subtitle-block">
+                                Our Team
+                            </h3>
+                            <!-- * заголовок -->
+                            <h2 class="team__title title-block">
+                                Meet Our Groomers
+                            </h2>
+                            <!-- * внутренний блок с карточками -->
+                            <div class="team__cards cards-oval cards">
+                                <!-- * flex карточек -->
+                                <div class="cards-oval__row">
+                                    <!-- * flex элемент внутреннего блока с карточками -->
+                                    <div class="cards-oval__item oval">
+                                        <!-- * карточка -->
+                                        <div class="oval">
+                                            <div class="oval__image oval__image_yellow"></div>
+                                            <h4 class="oval__name">Rosalina Wiliam</h4>
+                                            <h5 class="oval__occupation">CEO & Founder</h5>
+                                        </div>
+                                    </div>
+                                    <!-- * flex элемент внутреннего блока с карточками -->
+                                    <div class="cards-oval__item oval">
+                                        <!-- * карточка -->
+                                        <div class="oval">
+                                            <div class="oval__image oval__image_violet"></div>
+                                            <h4 class="oval__name">Rosalina Wiliam</h4>
+                                            <h5 class="oval__occupation">CEO & Founder</h5>
+                                        </div>
+                                    </div>
+                                    <!-- * flex элемент внутреннего блока с карточками -->
+                                    <div class="cards-oval__item oval">
+                                        <!-- * карточка -->
+                                        <div class="oval">
+                                            <div class="oval__image oval__image_pink"></div>
+                                            <h4 class="oval__name">Rosalina Wiliam</h4>
+                                            <h5 class="oval__occupation">CEO & Founder</h5>
+                                        </div>
+                                    </div>
+                                    <!-- * flex элемент внутреннего блока с карточками -->
+                                    <div class="cards-oval__item oval">
+                                        <!-- * карточка -->
+                                        <div class="oval">
+                                            <div class="oval__image oval__image_blue"></div>
+                                            <h4 class="oval__name">Rosalina Wiliam</h4>
+                                            <h5 class="oval__occupation">CEO & Founder</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- todo коробка пятого блока -->
+
+                <section class="price">
+                    <!-- todo ограничивающий контейнер пятого блока -->
+                    <div class="price__container container">
+                        <!-- todo карточки пятого блока -->
+                        <div class="price__cards cards">
+                            <!-- todo flex контейнер пятого блока -->
+                            <div class="price__row">
+                                <!-- todo flex элемент -->
+                                <div class="price__item pack">
+                                    <div class="pack__body">
+                                        <div class="pack__row">
+                                            <h4 class="pack__title">Regular Pack</h4>
+                                            <h3 class="pack__duration">3 Days</h3>
+                                            <div class="pack__text">
+                                                <p>Pet Shower</p>
+                                                <p>Fitness Checkup</p>
+                                                <p>Pet Grooming</p>
+                                                <p>Hair and Nail Cut</p>
+                                                <p>Control Hair Falling</p>
+                                            </div>
+                                            <div class="pack__cost">$150<span>Per Visit</span></div>
+                                            <div class="pack__button button">
+                                                <a href="#" class="button__text">Purchase Pack</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item pack">
+                                    <div class="pack__body pack__body_exclusive">
+                                        <div class="pack__row">
+                                            <h4 class="pack__title pack__title_exclusive">Exclusive Pack</h4>
+                                            <h3 class="pack__duration pack__duration_exclusive">10 Days</h3>
+                                            <div class="pack__text pack__text_exclusive">
+                                                <p>Pet Shower</p>
+                                                <p>Fitness Checkup</p>
+                                                <p>Pet Grooming</p>
+                                                <p>Hair and Nail Cut</p>
+                                                <p>Control Hair Falling</p>
+                                                <p>Brush & Blow Dry</p>
+                                                <p>Pet Park And Games</p>
+                                            </div>
+                                            <div class="pack__cost pack__cost_exclusive">$350<span>Per Visit</span>
+                                            </div>
+                                            <div class="pack__button button pack__button_exclusive">
+                                                <a href="#" class="button__text button__text_exclusive">Purchase
+                                                    Pack</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price__item pack">
+                                    <div class="pack__body">
+                                        <div class="pack__row">
+                                            <h4 class="pack__title">Premium Pack</h4>
+                                            <h3 class="pack__duration">30 Days</h3>
+                                            <div class="pack__text">
+                                                <p>Pet Shower</p>
+                                                <p>Fitness Checkup</p>
+                                                <p>Pet Grooming</p>
+                                                <p>Hair and Nail Cut</p>
+                                                <p>Control Hair Falling</p>
+                                            </div>
+                                            <div class="pack__cost">$550<span>Per Visit</span></div>
+                                            <div class="pack__button button">
+                                                <a href="#" class="button__text">Purchase Pack</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <!-- todo Подвал -->
+        <footer class="footer">
+            Я подвал
+        </footer>
+    </div>
+</body>
+
+</html>
