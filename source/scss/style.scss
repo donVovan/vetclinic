@@ -792,8 +792,10 @@ body {
 
 .price {
     &__container {
+        position: relative;
         max-width: 1290px;
         margin: 0px auto;
+        z-index: 1;
     }
 
     &__cards {
@@ -824,6 +826,26 @@ body {
             @media (max-width: $medium) {
                 order: 1;
             }
+        }
+    }
+
+    &__image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 3700px;
+        right: 0px;
+        object-fit: cover;
+        z-index: 2;
+        opacity: 1;
+        @media (max-width: $extralarge) {
+            top: 4200px;
+        }
+        @media (max-width: $large) {
+            top: 4650px;
+        }
+        @media (max-width: $extrasmall) {
+            top: 6000px;
         }
     }
 }

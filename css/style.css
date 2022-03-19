@@ -1249,8 +1249,10 @@ body {
 
 /* ПЯТЫЙ БЛОК =====================================*/
 .price__container {
+  position: relative;
   max-width: 1290px;
   margin: 0px auto;
+  z-index: 1;
 }
 
 .price__row {
@@ -1306,6 +1308,36 @@ body {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+  }
+}
+
+.price__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 3700px;
+  right: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+  opacity: 1;
+}
+
+@media (max-width: 1199.98px) {
+  .price__image {
+    top: 4200px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .price__image {
+    top: 4650px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .price__image {
+    top: 6000px;
   }
 }
 
