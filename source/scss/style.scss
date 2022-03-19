@@ -804,12 +804,27 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        @media (max-width: $medium) {
+            flex-wrap: wrap;
+        }
         
     }
 
     &__item {
-        flex: 1 1 33.3333%;
+        flex: 1 0 33.3333%;
         align-self: center;
+        @media (max-width: $large) {
+            flex: 1 0 25%;
+        }
+        @media (max-width: $medium) {
+            flex: 0 0 75%;
+            order: 2;
+        }
+        &_exclusive {
+            @media (max-width: $medium) {
+                order: 1;
+            }
+        }
     }
 }
 
@@ -823,6 +838,9 @@ body {
         border-radius: 20px;
         font-family: "Nunito";
         z-index: 1;
+        @media (max-width: $medium) {
+            margin: 0px 0px 60px 0px;
+        }
         &_exclusive {
             position: relative;
             margin: 0px -50px 100px;
@@ -831,12 +849,18 @@ body {
             border-radius: 20px;
             color: #ffffff;
             z-index: 2;
+            @media (max-width: $medium) {
+                margin: 0px 30px 50px;
+            }
         }
     }
 
     &__row {
         padding: 0px 0px 60px 0px;
         margin: 0px 0px 130px 0px;
+        @media (max-width: $medium) {
+            margin: 0;
+        }
     }
 
     &__title {
