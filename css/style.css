@@ -1555,3 +1555,139 @@ body {
   max-width: -moz-max-content;
   max-width: max-content;
 }
+
+/* FOOTER ==========================================*/
+.footer {
+  margin: 0 auto;
+}
+
+.footer__container {
+  max-width: 1290px;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 0px 130px 0px;
+}
+
+.footer__columns {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.footer__columns:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
+}
+
+.footer__columns:last-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+.footer__columns:not(:last-child) {
+  padding: 0px 100px 0px 0px;
+}
+
+.footer__bottom {
+  text-align: center;
+  color: #707283;
+  font-size: 18px;
+  line-height: 122.22222%;
+  margin: 0px 0px 30px 0px;
+}
+
+.column__title {
+  color: #242851;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 135.71429%;
+  padding: 0px 0px 25px 0px;
+}
+
+.column__title_logo {
+  font-size: 36px;
+  line-height: 136.11111%;
+}
+
+.column__title_logo span {
+  color: #ff7852;
+}
+
+.column__text {
+  color: #707283;
+  font-size: 18px;
+  line-height: 166.66667%;
+}
+
+.column__list {
+  color: #707283;
+  font-size: 18px;
+  line-height: 122.22222%;
+}
+
+.column__item {
+  padding: 0px 0px 15px 0px;
+}
+
+.column__link {
+  color: inherit;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.column__link:hover {
+  color: #ff7852;
+}
+
+.column__link:active {
+  color: #8fc638;
+}
+
+.subscribe {
+  margin: 30px 0px 0px 0px;
+}
+
+.subscribe__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-color: #ffffff;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 12px 35px rgba(210, 197, 192, 0.25);
+          box-shadow: 0px 12px 35px rgba(210, 197, 192, 0.25);
+}
+
+.subscribe__input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  min-height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 122.22222%;
+  padding: 0px 0px 0px 30px;
+}
+
+.subscribe__button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  color: #ffffff;
+  font-family: 'Nunito';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 122.22222%;
+  padding: 0px 30px;
+}

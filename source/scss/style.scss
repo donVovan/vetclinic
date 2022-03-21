@@ -1017,3 +1017,119 @@ body {
     }
 }
 
+
+/* FOOTER ==========================================*/
+
+.footer {
+    margin: 0 auto;
+
+    &__container {
+        max-width: 1290px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 130px 0px;
+    }
+
+    &__columns {
+        flex: 0 0 20%;
+        &:first-child {
+            flex: 0 0 35%;
+        }
+        &:last-child {
+            flex: 0 0 25%
+        }
+        &:not(:last-child) {
+            padding: 0px 100px 0px 0px;
+        }
+    }
+
+    &__bottom {
+        text-align: center;
+        color: #707283;
+        font-size: 18px;
+        line-height: 22/18*100%;
+        margin: 0px 0px 30px 0px;
+    }
+}
+.column {
+   
+    &__body {
+    }
+
+    &__title {
+        color: #242851;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 38/28*100%;
+        padding: 0px 0px 25px 0px;
+        &_logo {
+            font-size: 36px;
+            line-height: 49/36*100%;
+            & span {
+                color: #ff7852;
+            }
+        }
+    }
+
+    &__text {
+        color: #707283;
+        font-size: 18px;
+        line-height: 30/18*100%;
+    }
+
+    &__subscribe {
+    }
+
+    &__list {
+        color: #707283;
+        font-size: 18px;
+        line-height: 22/18*100%;
+    }
+
+    &__item {
+        padding: 0px 0px 15px 0px;
+    }
+
+    &__link {
+        color:inherit;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            color: #ff7852;
+        }
+        &:active {
+            color: #8fc638;
+        }
+    }
+}
+.subscribe {
+    margin: 30px 0px 0px 0px;
+    &__form {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #ffffff;
+        border-radius: 30px;
+        box-shadow: 0px 12px 35px rgba(210, 197, 192, 0.25);
+    }
+
+    &__input {
+        flex: 0 0 auto;
+        min-height: 60px;
+        border-radius: 30px;
+        font-size: 18px;
+        line-height: 22/18*100%;
+        padding: 0px 0px 0px 30px;
+    }
+
+    &__button {
+        flex: 0 0 auto;
+        color: #ffffff;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22/18*100%;
+        padding: 0px 30px;
+    }
+}
