@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap&subset=cyrillic-ext");
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/quicksand/Quicksand-Regular.eot");
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 /*ОБЩИЕ СТИЛИ =====================================*/
 body {
   background-color: #fff8f5;
-  font-family: "Quicksand";
+  font-family: "Roboto Mono";
   font-weight: 400;
 }
 
@@ -1167,7 +1168,7 @@ body {
 }
 
 .oval__image_yellow {
-  background: url(../img/team/01.png) 21px 27px no-repeat;
+  background: url(../../img/team/01.png) 21px 27px no-repeat;
   background-size: auto 172px;
   background-color: #f8ce79;
 }
@@ -1179,21 +1180,21 @@ body {
 }
 
 .oval__image_violet {
-  background: url(../img/team/02.png) 0px 27px no-repeat;
+  background: url(../../img/team/02.png) 0px 27px no-repeat;
   background-size: auto 325px;
   background-color: #aaa5ec;
 }
 
 @media (max-width: 767.98px) {
   .oval__image_violet {
-    background: url(../img/team/02.png) 3px 27px no-repeat;
+    background: url(../../img/team/02.png) 3px 27px no-repeat;
     background-color: #aaa5ec;
     background-size: auto 254px;
   }
 }
 
 .oval__image_pink {
-  background: url(../img/team/03.png) 10px 20px no-repeat;
+  background: url(../../img/team/03.png) 10px 20px no-repeat;
   background-size: auto 178px;
   background-color: #ffc193;
 }
@@ -1205,14 +1206,14 @@ body {
 }
 
 .oval__image_blue {
-  background: url(../img/team/04.png) 37px 20px no-repeat;
+  background: url(../../img/team/04.png) 37px 20px no-repeat;
   background-size: auto 223px;
   background-color: #bbe3f7;
 }
 
 @media (max-width: 767.98px) {
   .oval__image_blue {
-    background: url(../img/team/04.png) 30px 20px no-repeat;
+    background: url(../../img/team/04.png) 30px 20px no-repeat;
     background-size: auto 174px;
     background-color: #bbe3f7;
   }
@@ -1249,7 +1250,7 @@ body {
 
 /* ПЯТЫЙ БЛОК =====================================*/
 .price {
-  background: url(../img/price/element-1.png) no-repeat 0 90%, url(../img/price/element-2.png) no-repeat 100% 0;
+  background: url(../../img/price/element-1.png) no-repeat 0 90%, url(../../img/price/element-2.png) no-repeat 100% 0;
   /*  &__cards {
     } */
 }
@@ -1505,20 +1506,20 @@ body {
 }
 
 .contact__row {
-  background: url(../img/contact/contact-bg03.png) 100% 0 no-repeat #FFECE4;
+  background: url(../../img/contact/contact-bg03.png) 100% 0 no-repeat #FFECE4;
   border-radius: 50px;
   padding: 0px 0px 102px 0px;
 }
 
 @media (max-width: 1220px) {
   .contact__row {
-    background: url(../img/contact/contact-bg05.png) 100% 0 no-repeat #FFECE4;
+    background: url(../../img/contact/contact-bg05.png) 100% 0 no-repeat #FFECE4;
   }
 }
 
 @media (max-width: 767.98px) {
   .contact__row {
-    background: url(../img/contact/contact-bg06.png) 100% 0 no-repeat #FFECE4;
+    background: url(../../img/contact/contact-bg06.png) 100% 0 no-repeat #FFECE4;
   }
 }
 
