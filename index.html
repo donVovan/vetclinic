@@ -342,27 +342,28 @@
                 </section>
             </main>
         </div>
-        <!-- todo Подвал -->
+        <!-- * Подвал -->
         <footer class="footer">
-            <!-- todo ограничивающий контейнер -->
+            <!-- * ограничивающий контейнер -->
             <div class="footer__container">
-                <!-- todo flex подвала -->
+                <!-- * flex подвала -->
                 <div class="footer__row">
-                    <!-- todo элементы флекса -->
+                    <!-- * элементы флекса -->
                     <div class="footer__columns column">
-                        <!-- todo колонка -->
+                        <!-- * колонка -->
                         <div class="column__body">
-                            <!-- todo заголовок первой колонки отдельно стилизованный -->
+                            <!-- * заголовок первой колонки отдельно стилизованный -->
                             <div class="column__title column__title_logo">Vet<span>care</span></div>
-                            <!-- todo текст первой колонки -->
+                            <!-- * текст первой колонки -->
                             <div class="column__text">Quisque id leo non dolor tempor elementum quis ac urna. Nam pharetra, ligula eget finibus dignissim, turpis ipsum sollicitudin</div>
-                            <!-- todo форма подписки -->
+                            <!-- * форма подписки -->
                             <div class="column__subscribe subscribe">
                                 <form action="#" id="subscribe" class="subscribe__form">
                                     <input autocomplete="off" type="email" required name="form[]"
                                         placeholder="Email address" class="subscribe__input">
-                                    <button type="submit" class="subscribe__button button">Subscribe</button>
+                                    <button type="submit" name="send" class="subscribe__button button">Subscribe</button>
                                 </form>
+                                <button form="subscribe" name="send-other" type="submit" class="button subscribe__button-other">Subscribe</button>
                             </div>
                         </div>
                     </div>
