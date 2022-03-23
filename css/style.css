@@ -699,9 +699,9 @@ body {
   }
 }
 
-/* ВТОРОЙ БЛОК =====================================*/
+/* ВТОРОЙ БЛОК =====================================*/ /*
 .services {
-  /* Заготовка flex контейнера и два элемента которые ушли в общие блоки, не пригодилась, пусть пока здесь живет
+  Заготовка flex контейнера и два элемента которые ушли в общие блоки, не пригодилась, пусть пока здесь живет
     &__row { 
     }
 
@@ -713,8 +713,8 @@ body {
 
     &__cards {
     }
-*/
-}
+
+}*/
 
 @media (max-width: 1579.98px) {
   .services__container {
@@ -951,21 +951,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 1;
-  opacity: 1;
-  /*  @media (max-width: 1699.98px) {
-            top: 000px;
-        }
-
-        
-        @media (max-width: $medium) {
-            top: 1880px;
-        }
-        @media (max-width: $small) {
-            top: 1500px;
-        }
-        @media (max-width: $extrasmall) {
-            top: 2380px;
-        } */
+  opacity: 1; 
 }
 
 @media (max-width: 1199.98px) {
@@ -1048,9 +1034,9 @@ body {
   }
 }
 
-/* ЧЕТВЕРТЫЙ БЛОК =====================================*/
+/* ЧЕТВЕРТЫЙ БЛОК =====================================*//*
 .team {
-  /*
+  
     &__subtitle {
     }
 
@@ -1059,8 +1045,8 @@ body {
 
     &__cards {
     }
-*/
-}
+
+}*/
 
 .team__container {
   position: relative;
@@ -1174,7 +1160,7 @@ body {
 }
 
 .oval__image_yellow {
-  background: url(../../img/team/01.png) 21px 27px no-repeat;
+  background: url(../img/team/01.png) 21px 27px no-repeat;
   background-size: auto 172px;
   background-color: #f8ce79;
 }
@@ -1186,21 +1172,21 @@ body {
 }
 
 .oval__image_violet {
-  background: url(../../img/team/02.png) 0px 27px no-repeat;
+  background: url(../img/team/02.png) 0px 27px no-repeat;
   background-size: auto 325px;
   background-color: #aaa5ec;
 }
 
 @media (max-width: 767.98px) {
   .oval__image_violet {
-    background: url(../../img/team/02.png) 3px 27px no-repeat;
+    background: url(../img/team/02.png) 3px 27px no-repeat;
     background-color: #aaa5ec;
     background-size: auto 254px;
   }
 }
 
 .oval__image_pink {
-  background: url(../../img/team/03.png) 10px 20px no-repeat;
+  background: url(../img/team/03.png) 10px 20px no-repeat;
   background-size: auto 178px;
   background-color: #ffc193;
 }
@@ -1212,14 +1198,14 @@ body {
 }
 
 .oval__image_blue {
-  background: url(../../img/team/04.png) 37px 20px no-repeat;
+  background: url(../img/team/04.png) 37px 20px no-repeat;
   background-size: auto 223px;
   background-color: #bbe3f7;
 }
 
 @media (max-width: 767.98px) {
   .oval__image_blue {
-    background: url(../../img/team/04.png) 30px 20px no-repeat;
+    background: url(../img/team/04.png) 30px 20px no-repeat;
     background-size: auto 174px;
     background-color: #bbe3f7;
   }
@@ -1256,7 +1242,7 @@ body {
 
 /* ПЯТЫЙ БЛОК =====================================*/
 .price {
-  background: url(../../img/price/element-1.png) no-repeat 0 90%, url(../../img/price/element-2.png) no-repeat 100% 0;
+  background: url(../img/price/element-1.png) no-repeat 0 90%, url(../img/price/element-2.png) no-repeat 100% 0;
   /*  &__cards {
     } */
 }
@@ -1512,20 +1498,20 @@ body {
 }
 
 .contact__row {
-  background: url(../../img/contact/contact-bg03.png) 100% 0 no-repeat #FFECE4;
+  background: url(../img/contact/contact-bg03.png) 100% 0 no-repeat #FFECE4;
   border-radius: 50px;
   padding: 0px 0px 102px 0px;
 }
 
 @media (max-width: 1220px) {
   .contact__row {
-    background: url(../../img/contact/contact-bg05.png) 100% 0 no-repeat #FFECE4;
+    background: url(../img/contact/contact-bg05.png) 100% 0 no-repeat #FFECE4;
   }
 }
 
 @media (max-width: 767.98px) {
   .contact__row {
-    background: url(../../img/contact/contact-bg06.png) 100% 0 no-repeat #FFECE4;
+    background: url(../img/contact/contact-bg06.png) 100% 0 no-repeat #FFECE4;
   }
 }
 
@@ -1727,13 +1713,13 @@ body {
     font-size: 14px;
   }
 }
-
+/*
 .column {
-  /* &__body {
+   &__body {
     } */
   /* &__subscribe {
-    } */
-}
+    } 
+}*/
 
 .column__title {
   color: #242851;
